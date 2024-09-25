@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                ow: 'rgba(249, 247, 243, .96)',
+                prime1: 'rgba(45, 170, 34, 1)',
+                para_deep: 'rgb(73, 73, 73)',
+                para_light: 'rgb(115, 115, 115)'
+              },
+              fontFamily: {
+                manrope: 'manrope'
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body>
+  <div class="navbarbase bg-ow  sticky lg:top-0 z-10 ">
+    <div class=" navbar-upper flex justify-between lg:gap-80 items-center lg:my-5 lg:mb-14 mx-3.5 lg:mx-40 sm:justify-items-center">
+        <div class="navbaru-1">
+            <button id="btn-home" class="btn btn-success bg-prime1 text-stone-100 px-7 ">Home</button>
+        </div>
+        <div class="flex  row   items-center navbaru-2">
+            <div class="navbaru-2-1">
+                <img src="assets/logo.png" alt="" >
+            </div>
+            <div class="navbaru-2-2 font-bold">
+                Donate Bangladesh
+            </div>
+    
+        </div>
+        <div class="flex justify-end items-center gap-2 navbaru-3 my-5 ">
+            <div class="navbaru-3-1">
+                <img src="assets/coin.png" alt="" >
+            </div>
+            <div id="account-balance" class="navbaru-3-2 font-semibold">
+                5500 
+            </div>
+            <div class="font-semibold">
+                BDT
+            </div>
+        </div>
+    
+    
+    </div>
+
+
+  </div>
+
+    <main class="mx-10 lg:mx-40 space-y-4">
+          <div class="collapse collapse-arrow bg-base-200 ">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">Do you trust Donate Bangladesh handling the donations? Why or why not?</div>
+            <div class="collapse-content">
+                <input class="enteramount w-full p-4 my-3" id="" type="text" placeholder="Enter Your Response" autocomplete="off"  />
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">Do you feel the team is transparent about fund usage?</div>
+            <div class="collapse-content">
+                <input class="enteramount w-full p-4 my-3" id="" type="text" placeholder="Enter Your Response" autocomplete="off"  />
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you contribute to your society?</div>
+            <div class="collapse-content">
+                <input class="enteramount w-full p-4 my-3" id="" type="text" placeholder="Enter Your Response" autocomplete="off"  />
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How can Donate Bangladesh improve their communication with donors?</div>
+            <div class="collapse-content">
+                <input class="enteramount w-full p-4 my-3" id="" type="text" placeholder="Enter Your Response" autocomplete="off"  />
+            </div>
+          </div>
+          
+
+
+    </main>
+
+
+    <script src="js/blog.js"></script>
+</body>
+</html>
